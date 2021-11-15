@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 6.1</title>
+    <style>
+        .wrapper hr {
+            border: none;
+            border-bottom: 3px solid #f6f;
+            margin-left: 20px;
+        }
+        a:link {
+            color: #b6a;
+        }
+        #copyright {
+            text-align: center;
+            color: #7ca;
+        }
+        h1 {
+          background-color: #fc6;
+          color: #e62;
+          text-align: center;
+          text-transform: uppercase;
+          padding: 5px 0 5px;
+          margin: 0;  
+        }
+        .item {
+            margin-left: 20px;
+            font-family: Google Sans;
+        }
+        .item hr {
+            border: none;
+            border-bottom: #eec 3px solid;
+            margin-left: -5px;
+            /* tại sao ở đây margin phải trừ? */
+        }
+        .item .header {
+            color: #d83;
+        }
+        .content .subheader {
+            color: #14a;
+        }
+        .content .info {
+            display: flex;
+        }
+        .info img {
+            width: 65px;
+            height: 45px;
+            margin-right: 10px;
+        }
+        .info .detail {
+            margin-top: -20px;
+        }
+        .detail .detail-left {
+            color: #d83;
+        }
+        .detail .detail-right {
+            color: #362;
+        }
+        #lightrow {
+            border: none;
+            border-bottom: #ffd 3px solid;
+            margin-left: -5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h1 id="title">Một số điểm du lịch cho bạn trong ngày tết</h1>
+        <ul>
+            <li><a href="#ditich">Di tích lịch sử, văn hóa</a></li>
+            <li><a href="#thangcanh">Thắng cảnh</a></li>
+            <li><a href="#dulichvanhoa">Du lịch văn hóa</a></li>
+        </ul>
+        <hr>
+        <div class="item">
+            <h3 class="header" id="ditich">Di tích lịch sử, văn hóa</h3>
+            <div class="content">    
+                <h4 class="subheader">Chùa Bửu Phong</h4>
+                <div class="info">
+                    <img src="../Session-4/images/ChiTietChuaBuuPhong.jpg" alt="ChiTietChuaBuuPhong">
+                    <div class="detail">
+                        <p class="detail-left">Lorem:
+                        <span class="detail-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit libero quibusdam eius magni amet expedita assumenda accusantium, alias maiores exercitationem quaerat sit accusamus, minima nemo debitis nisi est, mollitia sapiente.</span>
+                        </p>
+                        <p class="detail-left">Lorem:
+                        <span class="detail-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit libero quibusdam eius magni amet expedita assumenda accusantium, alias maiores exercitationem quaerat sit accusamus, minima nemo debitis nisi est, mollitia sapiente.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="content">    
+                <h4 class="subheader">Mộ cổ Hàng Gôn</h4>
+                <div class="info">
+                    <img src="../Session-4/images/HangGon.jpg" alt="HangGon">
+                    <div class="detail">
+                        <p class="detail-left">Lorem:
+                        <span class="detail-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit libero quibusdam eius magni amet expedita assumenda accusantium, alias maiores exercitationem quaerat sit accusamus, minima nemo debitis nisi est, mollitia sapiente.</span>
+                        </p>
+                        <p class="detail-left">Lorem:
+                        <span class="detail-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit libero quibusdam eius magni amet expedita assumenda accusantium, alias maiores exercitationem quaerat sit accusamus, minima nemo debitis nisi est, mollitia sapiente.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="item">
+            <h3 class="header" id="thangcanh">Thắng cảnh</h3>
+            <div class="content">    
+                <h4 class="subheader">Vườn quốc gia Cát Tiên</h4>
+                <div class="info">
+                    <img src="../Session-4/images/CatTien.jpg" alt="CatTien">
+                    <div class="detail">
+                        <p class="detail-left">Lorem:
+                        <span class="detail-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit libero quibusdam eius magni amet expedita assumenda accusantium, alias maiores exercitationem quaerat sit accusamus, minima nemo debitis nisi est, mollitia sapiente.</span>
+                        </p>
+                        <p class="detail-left">Lorem:
+                        <span class="detail-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit libero quibusdam eius magni amet expedita assumenda accusantium, alias maiores exercitationem quaerat sit accusamus, minima nemo debitis nisi est, mollitia sapiente.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr id="lightrow">
+            <div class="content">    
+                <h4 class="subheader">Khu du lịch Hồ Long An</h4>
+                <div class="info">
+                    <img src="../Session-4/images/HoLongAn.jpg" alt="HoLongAn">
+                    <div class="detail">
+                        <p class="detail-left">Lorem:
+                        <span class="detail-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit libero quibusdam eius magni amet expedita assumenda accusantium, alias maiores exercitationem quaerat sit accusamus, minima nemo debitis nisi est, mollitia sapiente.</span>
+                        </p>
+                        <p class="detail-left">Lorem:
+                        <span class="detail-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit libero quibusdam eius magni amet expedita assumenda accusantium, alias maiores exercitationem quaerat sit accusamus, minima nemo debitis nisi est, mollitia sapiente.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="content">    
+                <h4 class="subheader">Khám phá đảo Ố - Đồng Trường</h4>
+                <div class="info">
+                    <img src="../Session-3/images/xe-hoi.jpg" alt="DongTruong">
+                    <div class="detail">
+                        <p class="detail-left">Lorem:
+                        <span class="detail-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit libero quibusdam eius magni amet expedita assumenda accusantium, alias maiores exercitationem quaerat sit accusamus, minima nemo debitis nisi est, mollitia sapiente.</span>
+                        </p>
+                        <p class="detail-left">Lorem:
+                        <span class="detail-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit libero quibusdam eius magni amet expedita assumenda accusantium, alias maiores exercitationem quaerat sit accusamus, minima nemo debitis nisi est, mollitia sapiente.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="item">
+            <h3 class="header" id="dulichvanhoa">Du lịch văn hóa</h3>
+            <div class="content">    
+                <h4 class="subheader">Lễ Kỳ Yên</h4>
+                <div class="info">
+                    <div class="detail">
+                        <p class="detail-left">Lorem:
+                        <span class="detail-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit libero quibusdam eius magni amet expedita assumenda accusantium, alias maiores exercitationem quaerat sit accusamus, minima nemo debitis nisi est, mollitia sapiente.</span>
+                        </p>
+                        <p class="detail-left">Lorem:
+                        <span class="detail-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit libero quibusdam eius magni amet expedita assumenda accusantium, alias maiores exercitationem quaerat sit accusamus, minima nemo debitis nisi est, mollitia sapiente.</span>
+                        </p>
+                        <p class="detail-left">Lorem:
+                            <span class="detail-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit libero quibusdam eius magni amet expedita assumenda accusantium, alias maiores exercitationem quaerat sit accusamus, minima nemo debitis nisi est, mollitia sapiente.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p id="copyright">Design by (Hải Linh)</p>
+    </div>
+</body>
+</html>
